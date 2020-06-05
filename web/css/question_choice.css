@@ -1,0 +1,103 @@
+.choice-question{
+    background: #FFFFFF;
+    padding: 30px;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 5px;
+}
+#choice_content .choice-question ul{
+    list-style: none;
+}
+.answer{
+    padding: .3em .8em;
+    border: 1px #1D62F0;
+    background: #2e6da4 linear-gradient(#77a0bb,#2e6da4);
+    border-radius: .2em;
+    box-shadow: 0 .05em .25em gray;
+    color: #FFFFFF;
+    text-shadow: 0 -.05em .05em #335166;
+    font-size:100%;;
+    line-height: 1.5;
+}
+.answer-show-text{
+    float: right;
+    display: none;
+}
+.answer-show-text span{
+    font-size: 125%;
+    float: right;
+    font-family:黑体;
+}
+.zhuguan-question{
+    background: #FFFFFF;
+    padding: 30px;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+#choice_content{
+    width: 100%;
+    height: 100%;
+}
+.page-normal a{
+    border: 1px solid #ff6500;
+    padding: 5px 7px;
+    color: #ff6500;
+    margin-left: 20px;/*设置标签 a 之间的间隔*/
+    text-decoration: none;/*去除页码数字下面的下划线*/
+}
+/*设置鼠标经过时 a 标签的css样式*/
+.page-normal a:hover{
+    background-color: #ffbe94;
+}
+
+/*设置整个div的css样式,该样式主要用于设置网页内的省略号 …… 的样式，并且同时设置内容居中显示*/
+.page-normal{
+    color: #ff6500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*设置当前页面的css样式*/
+.page-normal .page-current{
+    color: #ffffff;
+    background-color: #ff6500;
+}
+
+/*设置左单括号 < 的css样式*/
+.page-normal .page-prev{
+    color: #ffe3c6;
+}
+
+/*进行代码优化，将不同css样式中共有的属性放在一起，有助于提高运行效率*/
+.page-normal a, .page-normal a:hover, .page-normal .page-prev, .page-normal .page-current{
+    border: 1px solid #ff6500;
+    padding: 5px 7px;
+}
+.record{
+    font-family: inherit;
+    font-size:20px;
+    color:black;
+}
+#choice_content .choice-question ul li{
+    border-bottom: 0px;
+    padding: 1px 0;
+}
+.choice-question ul li{
+    border-bottom: 0px;
+    padding: 1px 0;
+}
+.collect{
+    float: right;
+}
+.collect a{
+    display: block;
+}
+.iconfont{
+    color: gray;
+}
+.collect a:hover .iconfont{
+    color: #f4ea2a;
+}
+
